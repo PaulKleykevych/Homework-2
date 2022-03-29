@@ -1,0 +1,66 @@
+body {
+    color: team-text text;
+}
+
+.advantages,
+ .do {
+    background-color: #E5E5E5;
+}
+
+.site-nav a:hover,
+.site-nav a:focus  {
+    color: #2196F3;
+}
+
+.site-nav a{
+    color: #212121;
+}
+.contact:hover,
+.contact:focus {
+    color: #2196F3;
+}
+
+.contact {
+    color: #757575;
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title,
+.footer-address {
+    color: #FFFFFF;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.button {
+    background-color: #2196F3;
+}
+
+.button {
+    color: #FFFFFF;
+  }
+
+.text {
+      color: #757575;
+  }
+
+.footer {
+      background-color: #2F303A;
+  }
+
+.footer-logo {
+    color:#FFFFFF ;
+}
+
+ul{
+    list-style: none;
+}
