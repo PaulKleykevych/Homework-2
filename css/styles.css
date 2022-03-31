@@ -1,10 +1,21 @@
-body {
-    color: team-text text;
+:root {
+    --primary-text-color: #212121
+    --secondary-text-color: #757575
+    --accent-color: #2196F3 
 }
 
-.advantages,
- .do {
-    background-color: #E5E5E5;
+
+body {
+    color: #212121;
+}
+
+.header-logo,
+.footer-logo {
+    color: #2196F3;
+}
+
+.hl-second {
+    color: #212121;
 }
 
 .site-nav a:hover,
@@ -27,7 +38,7 @@ body {
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
 }
-
+/* Герой */
 .hero {
     background-color: #2F303A;
 }
@@ -43,23 +54,22 @@ body {
 
 .button {
     background-color: #2196F3;
-}
-
-.button {
     color: #FFFFFF;
-  }
+    border-color: transparent;
+}
 
 .text {
       color: #757575;
   }
 
-.footer {
+.footer, 
+.hero {
       background-color: #2F303A;
   }
 
-.footer-logo {
-    color:#FFFFFF ;
-}
+  .fl-second {
+      color: #FFFFFF
+  }
 
 ul{
     list-style: none;
