@@ -87,6 +87,7 @@ body {
 
 
 .button {
+    cursor: pointer;
     background-color: #2196F3;
     color: #FFFFFF;
     border-color: transparent;
@@ -187,6 +188,7 @@ h4 {
 }
 
 .work-button {
+    cursor: pointer;
     color: #212121;
     background-color:#F5F4FA;
     border-color: transparent;
