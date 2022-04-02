@@ -1,13 +1,13 @@
 :root {
-    --primary-text-color: #212121
-    --secondary-text-color: #757575
-    --accent-color: #2196F3 
-    --primary-white: #FFFFFF 
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3 ;
+    --primary-white-color: #FFFFFF ;
 }
 
 
 body {
-    color: #212121;
+    color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     }
 
@@ -15,17 +15,16 @@ body {
 
 .header-logo,
 .footer-logo {
-    color: #2196F3;
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    text-decoration: none;
-}
+    }
 
 .hl-second {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .page-header .link, .page-header .contact {
@@ -34,29 +33,30 @@ body {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    text-decoration: none;
-}
+    }
 
 .site-nav a:hover,
 .site-nav a:focus  {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav .link.current {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav .link {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .contact:hover,
-.contact:focus {
-    color: #2196F3;
+.contact:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
 }
 
 .contact {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 /*       Герой       */
@@ -66,9 +66,18 @@ body {
 
 .hero-title,
 .footer-address {
-    color: #FFFFFF;
+    color: var(--primary-white-color); 
+}
+
+.footer-address, 
+.page-header .link,
+.page-header .contact,
+.footer-contact,
+.header-logo,
+.footer-logo {
     text-decoration: none;
 }
+
 
 .hero-title {
     font-style: normal;
@@ -87,9 +96,10 @@ body {
 
 
 .button {
+    font-family: Roboto, sans-serif;
     cursor: pointer;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
     border-color: transparent;
     font-weight: 700;
     font-size: 16px;
@@ -101,9 +111,7 @@ body {
     }
 
 
-.advantages p {
-    font-style: normal;
-    font-weight: 400;
+.advantages-text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -111,7 +119,7 @@ body {
 
 
 .text {
-      color: #757575;
+      color: var(--secondary-text-color);
   }
 
 
@@ -123,7 +131,7 @@ body {
 
 
   .fl-second {
-      color: #FFFFFF
+      color: var(--primary-white-color);
   }
 
 
@@ -132,7 +140,7 @@ ul{
 }
 
 
-h2 {
+.advantages-title {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -160,9 +168,7 @@ h4 {
     letter-spacing: 0.03em;
 }
 
-.team p {
-    font-style: normal;
-    font-weight: 400;
+.team-text {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -179,7 +185,6 @@ h4 {
 
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -188,8 +193,9 @@ h4 {
 }
 
 .work-button {
+    font-family: Roboto, sans-serif;
     cursor: pointer;
-    color: #212121;
+    color: var(--primary-text-color);
     background-color:#F5F4FA;
     border-color: transparent;
     border-radius: 4px;
@@ -203,26 +209,25 @@ h4 {
 
 .work-button:hover,
 .work-button:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 .work-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .work-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
+}
+
+.ourwork {
+    display: none;
 }
