@@ -121,26 +121,24 @@ a {
 .advantages-text {
     font-size: 14px;
     line-height: 1.71;
-
     color: var(--secondary-text-color);
-
 }
 
 
 .text {
-      color: var(--secondary-text-color);
+    color: var(--secondary-text-color);
 }
 
 
 
 .footer, 
 .hero {
-      background-color: #2F303A;
+    background-color: #2F303A;
 }
 
 
   .fl-second {
-      color: var(--primary-white-color);
+    color: var(--primary-white-color);
 }
 
 
