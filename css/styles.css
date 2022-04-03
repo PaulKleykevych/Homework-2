@@ -121,6 +121,9 @@ a {
 .advantages-text {
     font-size: 14px;
     line-height: 1.71;
+
+    color: var(--secondary-text-color);
+
 }
 
 
