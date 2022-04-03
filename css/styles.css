@@ -9,8 +9,9 @@
 body {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
-
+/*     Сommon settings */
 ul {
     list-style: none;
 }
@@ -28,8 +29,7 @@ a {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
 .hl-second {
@@ -37,10 +37,9 @@ a {
 }
 
 .page-header .link, .page-header .contact {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -60,7 +59,9 @@ a {
 .contact:hover,
 .contact:focus,
 .footer-contact:hover,
-.footer-contact:focus {
+.footer-contact:focus,
+.footer-address:hover,
+.footer-address:focus {
     color: var(--accent-color);
 }
 
@@ -80,10 +81,9 @@ a {
 
 
 .hero-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -94,6 +94,11 @@ a {
     background-color: #F5F4FA;
 }
 
+.button:hover,
+.button:focus {
+    background-color: var(--primary-white-color);
+    color: var(--accent-color);
+}
 
 .button {
     font-family: Roboto, sans-serif;
@@ -103,18 +108,19 @@ a {
     border-color: transparent;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 
 .advantages-text {
     font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 }
 
 
@@ -136,55 +142,44 @@ a {
 
 
 .advantages-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
 
 h3 {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 h4 {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-text {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .footer-address {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
+    font-style: normal;
 }
 
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
+    font-style: normal;
 }
 
 .work-button {
@@ -194,12 +189,10 @@ h4 {
     background-color:#F5F4FA;
     border-color: transparent;
     border-radius: 4px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .work-button:hover,
@@ -218,8 +211,7 @@ h4 {
 
 .work-text {
     font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
+    line-height: 1.88;
     color: var(--secondary-text-color);
 }
 
